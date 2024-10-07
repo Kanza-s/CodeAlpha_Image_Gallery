@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="icon" type="image/x-icon" href="img/img_gallery.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Image Gallery</h2>
+        <nav>
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item"data-name="headphone">Headphone</span>
+                <span class="item"data-name="camera">Camera</span>
+                <span class="item"data-name="watch">Watch</span>
+                <span class="item"data-name="bag">Bag</span>
+            </div>
+        </nav>
+        <!-----Filter image----->
+        <div class="gallery">
+            <div class="image" data-name="headphone"><span><img src="img/headphone_1.jpg" alt=""></span></div>
+            <div class="image" data-name="camera"><span><img src="img/cam_1.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="img/watch_1.jpg" alt=""></span></div>
+            <div class="image" data-name="bag"><span><img src="img/bag_1.jpg" alt=""></span></div>
+            <div class="image" data-name="headphone"><span><img src="img/headphone_2.jpg" alt=""></span></div>
+            <div class="image" data-name="camera"><span><img src="img/cam_2.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="img/watch_2.jpg" alt=""></span></div>
+            <div class="image" data-name="bag"><span><img src="img/bag_2.jpg" alt=""></span></div>
+            <div class="image" data-name="headphone"><span><img src="img/headphone_3.jpg" alt=""></span></div>
+            <div class="image" data-name="camera"><span><img src="img/cam_3.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="img/watch_3.jpg" alt=""></span></div>
+            <div class="image" data-name="bag"><span><img src="img/bag_3.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="img/watch_4.jpg" alt=""></span></div>
+
+
+        </div>
+    </div>
+   <!-----   fullscreen image preview box  ------->
+   <div class="preview-box">
+    <div class="details">
+        <span class="title">Image Category: <p>Not defined</p></span>
+        <span class="icon fa fa-close"></span>
+    </div>
+    <div class="image-box">
+        <img src="" alt="">
+    </div>
+   </div>
+   <div class="shadow"></div>
+
+
+            <!------ Js link ------>
+  <script src="script.js"></script> 
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' ></script>
+
+</body>
+</html>
